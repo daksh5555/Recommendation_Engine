@@ -23,7 +23,7 @@ else:
     print("No GPUs detected.")
 
 # Load the dataset
-df = pd.read_csv('socialverse_data_output.csv')
+df = pd.read_csv('xyz.csv') # rename with actual csv filee
 
 # Handle missing 'Title' column
 df['Title_text'] = df['Title'].apply(lambda x: str(x) if isinstance(x, str) else 'NO_TITLE')
