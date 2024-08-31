@@ -1,5 +1,5 @@
 # Recommendation_engine
-recommend shorts like insta reels, titok videos and youtube shorts
+recommend shorts like insta reels, tiktok videos and youtube shorts
 
 # Cache File
 Only if you want to fetch api paginated data to your local machine and it uses Redis to store data with expiry and updation time.
